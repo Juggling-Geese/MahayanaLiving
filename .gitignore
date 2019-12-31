@@ -1,4 +1,11 @@
-
+# Keep sensitive information out of git repository
 db.php
 demo.php
-/html
+
+# Keep unnecessary folders from directory out of repository
+# Note - Repository intended for code only
+# HTML, Images, Templates, and Media files need not be included
+html/**
+images/**
+media/**
+Templates/**
