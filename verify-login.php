@@ -3,7 +3,6 @@
 session_start();
 
 $errors = 0; 
-
 $DBConnect = @mysql_connect("localhost", "root", "CWB208"); 
 
 if ($DBConnect === FALSE) { 
